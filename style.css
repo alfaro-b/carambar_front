@@ -1,0 +1,161 @@
+/* =========================
+   BASE = MOBILE FIRST
+   ========================= */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffea27;
+  color: #d60000;
+}
+
+.header {
+  text-align: center;
+  padding: 0.75rem 1rem;
+}
+
+.header-image {
+  max-width: 100%;
+  max-height: 25vh;
+  height: auto;
+  object-fit: contain;
+}
+
+.main-content {
+  max-width: 700px;
+  margin: 1.25rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.intro {
+  position: relative;
+  background: #fff9db;
+  padding: 1.5rem 1.5rem 2.5rem;
+  border-radius: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.intro h1 {
+  font-size: 2.4rem;
+  margin: 0 0 0.25rem;
+  color: #d60000;
+}
+
+.intro h2 {
+  font-size: 1.2rem;
+  margin: 0 0 1.25rem;
+  color: #7a0000;
+}
+
+.intro button {
+  font-weight: 700;
+  background: #d60000;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  box-shadow: 0 8px 0 #a80000;
+}
+
+.intro button:hover {
+  transform: translateY(1px);
+  box-shadow: 0 6px 0 #a80000;
+}
+
+.intro-image {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.25rem;
+  width: 70px;
+  height: auto;
+  opacity: 0.7;
+  pointer-events: none; 
+}
+
+.joke {
+  margin: 1.25rem auto 0;
+  padding: 1rem 1.25rem;
+  background: #fff9db;
+  border-radius: 16px;
+  border: 2px solid rgba(214, 0, 0, 0.25);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.joke h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #d60000;
+}
+
+.joke p {
+  margin: 0.75rem 0 0;
+  font-size: 1.3rem;
+  color: #7a0000;
+}
+
+.error {
+  color: #b00020;
+}
+
+.hidden {
+  display: none;
+}
+
+/* =========================
+   TABLETTE (>= 600px)
+   ========================= */
+@media (min-width: 600px) {
+  .header {
+    padding: 1rem 1rem;
+  }
+
+  .header-image {
+    max-height: 30vh;
+  }
+
+  .main-content {
+    margin: 1.75rem auto;
+  }
+
+  .intro h2{
+    font-size: 1.5rem;
+  }
+  .intro-image {
+    width: 95px;
+    right: 0.5rem;
+  }
+
+  .joke h3 { font-size: 1.7rem; }
+  .joke p  { font-size: 1.5rem; }
+}
+  
+
+/* =========================
+   DESKTOP (>= 900px)
+   ========================= */
+@media (min-width: 900px) {
+  .header {
+    padding: 1.5rem 1rem;
+  }
+
+  .header-image {
+    max-height: 40vh;
+  }
+
+  .main-content {
+    margin: 2rem auto;
+  }
+
+  .intro h1 { font-size: 2.8rem; }
+  .intro h2 { font-size: 1.7rem; }
+  .intro-image { width: 150px; }
+
+  .joke h3 { font-size: 1.9rem; }
+  .joke p  { font-size: 1.7rem; }
+
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carambar</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header class="header">
+        <img class="header-image" src="assets/carambarHero.png" alt="Personnages Carambar" />
+    </header>
+
+    <main class="main-content">
+        <section class="intro">
+
+            <h1>Carambar</h1>
+            <h2>Une blague à chaque clic</h2>
+
+
+            <img src="assets/carambarMan.png" alt="Personnage Carambar" class="intro-image" />
+
+            <button id="btn-joke">Afficher une blague</button>
+
+        </section>
+
+        <section id="joke" class="joke hidden">
+            <h3 id="question"></h3>
+            <p id="answer"></p>
+        </section>
+
+        <p id="error" class="error hidden"></p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
