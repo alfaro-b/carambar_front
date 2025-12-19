@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3001/api/v1/blagues/random";
+const API_URL = "https://carambar-back-c4qi.onrender.com/api/v1/blagues/random";
 
 const buttonGetJoke = document.getElementById("btn-joke");
 const jokeSection = document.getElementById("joke");
