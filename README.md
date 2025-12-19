@@ -19,6 +19,7 @@ L’API est versionnée (`/api/v1`) et propose les endpoints suivants :
 - GET `/api/v1/blagues/{id}` : consulter une blague par ID
 - GET `/api/v1/blagues/random` : consulter une blague aléatoire
 
+Liens : 
 - Repository GitHub : [carambar_back](https://github.com/alfaro-b/carambar_back)
 - API en ligne : [carambar_back](https://carambar-back-c4qi.onrender.com)
 - Documentation Swagger : [Swagger](https://carambar-back-c4qi.onrender.com/api-docs)
@@ -27,6 +28,7 @@ L’API est versionnée (`/api/v1`) et propose les endpoints suivants :
 - Développé en HTML, CSS et JavaScript
 - Déployé via GitHub Pages
 
+Liens : 
 - Repository GitHub : [carambar_front](https://github.com/alfaro-b/carambar_front)
 - Site en ligne : [Carambar Front](https://alfaro-b.github.io/carambar_front)
 
